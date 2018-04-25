@@ -1,0 +1,11 @@
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\bin\Debug\CalculadoraArray.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\bin\Debug\CalculadoraArray.pdb
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\CalculadoraArray.View.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\CalculadoraArray.Properties.Resources.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\CalculadoraArray.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\CalculadoraArray\obj\x86\Debug\CalculadoraArray.pdb
+C:\Users\Aluno\Desktop\Calculadora\CalculadoraArray\CalculadoraArray\obj\x86\Debug\CalculadoraArray.exe
+C:\Users\Aluno\Desktop\Calculadora\CalculadoraArray\CalculadoraArray\obj\x86\Debug\CalculadoraArray.pdb
