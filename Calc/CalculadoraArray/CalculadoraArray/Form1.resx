@@ -121,10 +121,13 @@
   <data name="btnSete.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="btnSete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 62</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 82</value>
+  </data>
   <data name="btnSete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -148,13 +151,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSete.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
   </data>
   <data name="btnOito.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnOito.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 62</value>
+    <value>61, 82</value>
   </data>
   <data name="btnOito.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -178,13 +181,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnOito.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="btnNove.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnNove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 62</value>
+    <value>114, 82</value>
   </data>
   <data name="btnNove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -208,13 +211,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnNove.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="btnSeis.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnSeis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 100</value>
+    <value>114, 120</value>
   </data>
   <data name="btnSeis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -238,13 +241,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSeis.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="btnCinco.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnCinco.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 100</value>
+    <value>61, 120</value>
   </data>
   <data name="btnCinco.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -268,13 +271,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCinco.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="btnQuatro.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
+  <data name="btnQuatro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnQuatro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 100</value>
+    <value>8, 120</value>
   </data>
   <data name="btnQuatro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -298,13 +304,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnQuatro.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="btnTres.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnTres.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 138</value>
+    <value>114, 158</value>
   </data>
   <data name="btnTres.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -328,13 +334,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnTres.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="btnDois.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnDois.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 138</value>
+    <value>61, 158</value>
   </data>
   <data name="btnDois.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -358,13 +364,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnDois.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="btnUm.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
+  <data name="btnUm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnUm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 138</value>
+    <value>8, 158</value>
   </data>
   <data name="btnUm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -388,13 +397,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnUm.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="btnZero.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnZero.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 176</value>
+    <value>61, 196</value>
   </data>
   <data name="btnZero.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -418,19 +427,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnZero.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="btnIgual.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnIgual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 176</value>
+    <value>114, 196</value>
   </data>
   <data name="btnIgual.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="btnIgual.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 32</value>
+    <value>47, 32</value>
   </data>
   <data name="btnIgual.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -448,13 +457,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnIgual.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="btnSoma.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnSoma.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 62</value>
+    <value>167, 82</value>
   </data>
   <data name="btnSoma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -478,13 +487,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSoma.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="btnSubt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnSubt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 100</value>
+    <value>167, 120</value>
   </data>
   <data name="btnSubt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -508,13 +517,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSubt.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="btnMult.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnMult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 138</value>
+    <value>167, 158</value>
   </data>
   <data name="btnMult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -538,13 +547,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnMult.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="btnDivi.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btnDivi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 176</value>
+    <value>167, 196</value>
   </data>
   <data name="btnDivi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -568,31 +577,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnDivi.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
-  <data name="txtBoxVisor.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtlblResultado.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt, style=Bold</value>
   </data>
-  <data name="txtBoxVisor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 22</value>
+  <data name="txtlblResultado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 22</value>
   </data>
-  <data name="txtBoxVisor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 34</value>
+  <data name="txtlblResultado.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="txtBoxVisor.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtlblResultado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 37</value>
+  </data>
+  <data name="txtlblResultado.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;txtBoxVisor.Name" xml:space="preserve">
-    <value>txtBoxVisor</value>
+  <data name="&gt;&gt;txtlblResultado.Name" xml:space="preserve">
+    <value>txtlblResultado</value>
   </data>
-  <data name="&gt;&gt;txtBoxVisor.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtlblResultado.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBoxVisor.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtlblResultado.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBoxVisor.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;txtlblResultado.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="lblTituloVisor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -619,6 +631,63 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblTituloVisor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 196</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 32</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBoxVisor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBoxVisor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="txtBoxVisor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="txtBoxVisor.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtBoxVisor.Name" xml:space="preserve">
+    <value>txtBoxVisor</value>
+  </data>
+  <data name="&gt;&gt;txtBoxVisor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBoxVisor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBoxVisor.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -628,7 +697,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>224, 219</value>
+    <value>229, 239</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>

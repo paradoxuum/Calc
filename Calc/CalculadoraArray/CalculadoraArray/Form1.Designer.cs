@@ -44,8 +44,10 @@
             this.btnSubt = new System.Windows.Forms.Button();
             this.btnMult = new System.Windows.Forms.Button();
             this.btnDivi = new System.Windows.Forms.Button();
-            this.txtBoxVisor = new System.Windows.Forms.TextBox();
+            this.txtlblResultado = new System.Windows.Forms.TextBox();
             this.lblTituloVisor = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtBoxVisor = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSete
@@ -64,6 +66,7 @@
             resources.ApplyResources(this.btnOito, "btnOito");
             this.btnOito.Name = "btnOito";
             this.btnOito.UseVisualStyleBackColor = true;
+            this.btnOito.Click += new System.EventHandler(this.btnOito_Click);
             // 
             // btnNove
             // 
@@ -72,6 +75,7 @@
             resources.ApplyResources(this.btnNove, "btnNove");
             this.btnNove.Name = "btnNove";
             this.btnNove.UseVisualStyleBackColor = true;
+            this.btnNove.Click += new System.EventHandler(this.btnNove_Click);
             // 
             // btnSeis
             // 
@@ -80,6 +84,7 @@
             resources.ApplyResources(this.btnSeis, "btnSeis");
             this.btnSeis.Name = "btnSeis";
             this.btnSeis.UseVisualStyleBackColor = true;
+            this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
             // 
             // btnCinco
             // 
@@ -88,6 +93,7 @@
             resources.ApplyResources(this.btnCinco, "btnCinco");
             this.btnCinco.Name = "btnCinco";
             this.btnCinco.UseVisualStyleBackColor = true;
+            this.btnCinco.Click += new System.EventHandler(this.btnCinco_Click);
             // 
             // btnQuatro
             // 
@@ -96,6 +102,7 @@
             resources.ApplyResources(this.btnQuatro, "btnQuatro");
             this.btnQuatro.Name = "btnQuatro";
             this.btnQuatro.UseVisualStyleBackColor = true;
+            this.btnQuatro.Click += new System.EventHandler(this.btnQuatro_Click);
             // 
             // btnTres
             // 
@@ -104,6 +111,7 @@
             resources.ApplyResources(this.btnTres, "btnTres");
             this.btnTres.Name = "btnTres";
             this.btnTres.UseVisualStyleBackColor = true;
+            this.btnTres.Click += new System.EventHandler(this.btnTres_Click);
             // 
             // btnDois
             // 
@@ -112,6 +120,7 @@
             resources.ApplyResources(this.btnDois, "btnDois");
             this.btnDois.Name = "btnDois";
             this.btnDois.UseVisualStyleBackColor = true;
+            this.btnDois.Click += new System.EventHandler(this.btnDois_Click);
             // 
             // btnUm
             // 
@@ -120,6 +129,7 @@
             resources.ApplyResources(this.btnUm, "btnUm");
             this.btnUm.Name = "btnUm";
             this.btnUm.UseVisualStyleBackColor = true;
+            this.btnUm.Click += new System.EventHandler(this.btnUm_Click);
             // 
             // btnZero
             // 
@@ -128,6 +138,7 @@
             resources.ApplyResources(this.btnZero, "btnZero");
             this.btnZero.Name = "btnZero";
             this.btnZero.UseVisualStyleBackColor = true;
+            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
             // 
             // btnIgual
             // 
@@ -136,6 +147,7 @@
             resources.ApplyResources(this.btnIgual, "btnIgual");
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.UseVisualStyleBackColor = true;
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
             // 
             // btnSoma
             // 
@@ -144,6 +156,7 @@
             resources.ApplyResources(this.btnSoma, "btnSoma");
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.UseVisualStyleBackColor = true;
+            this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
             // btnSubt
             // 
@@ -152,6 +165,7 @@
             resources.ApplyResources(this.btnSubt, "btnSubt");
             this.btnSubt.Name = "btnSubt";
             this.btnSubt.UseVisualStyleBackColor = true;
+            this.btnSubt.Click += new System.EventHandler(this.btnSubt_Click);
             // 
             // btnMult
             // 
@@ -160,6 +174,7 @@
             resources.ApplyResources(this.btnMult, "btnMult");
             this.btnMult.Name = "btnMult";
             this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // btnDivi
             // 
@@ -168,12 +183,14 @@
             resources.ApplyResources(this.btnDivi, "btnDivi");
             this.btnDivi.Name = "btnDivi";
             this.btnDivi.UseVisualStyleBackColor = true;
+            this.btnDivi.Click += new System.EventHandler(this.btnDivi_Click);
             // 
-            // txtBoxVisor
+            // txtlblResultado
             // 
-            this.txtBoxVisor.Cursor = System.Windows.Forms.Cursors.Arrow;
-            resources.ApplyResources(this.txtBoxVisor, "txtBoxVisor");
-            this.txtBoxVisor.Name = "txtBoxVisor";
+            this.txtlblResultado.Cursor = System.Windows.Forms.Cursors.Arrow;
+            resources.ApplyResources(this.txtlblResultado, "txtlblResultado");
+            this.txtlblResultado.Name = "txtlblResultado";
+            this.txtlblResultado.TextChanged += new System.EventHandler(this.txtBoxVisor_TextChanged);
             // 
             // lblTituloVisor
             // 
@@ -181,13 +198,29 @@
             this.lblTituloVisor.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lblTituloVisor.Name = "lblTituloVisor";
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtBoxVisor
+            // 
+            resources.ApplyResources(this.txtBoxVisor, "txtBoxVisor");
+            this.txtBoxVisor.Name = "txtBoxVisor";
+            // 
             // View
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.Controls.Add(this.lblTituloVisor);
             this.Controls.Add(this.txtBoxVisor);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblTituloVisor);
+            this.Controls.Add(this.txtlblResultado);
             this.Controls.Add(this.btnDivi);
             this.Controls.Add(this.btnMult);
             this.Controls.Add(this.btnSubt);
@@ -205,6 +238,7 @@
             this.Controls.Add(this.btnSete);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "View";
+            this.Load += new System.EventHandler(this.View_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,8 +261,10 @@
         private System.Windows.Forms.Button btnSubt;
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Button btnDivi;
-        private System.Windows.Forms.TextBox txtBoxVisor;
+        private System.Windows.Forms.TextBox txtlblResultado;
         private System.Windows.Forms.Label lblTituloVisor;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label txtBoxVisor;
     }
 }
 
